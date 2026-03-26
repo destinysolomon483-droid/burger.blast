@@ -1,0 +1,100 @@
+ body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+/* CARD CONTAINER */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.card {
+  background: white;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+/* IMAGE */
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ffcc00;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/* CONTENT */
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 0 0 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* BOTTOM SECTION */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}

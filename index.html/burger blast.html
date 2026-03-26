@@ -1,0 +1,525 @@
+
+<!DOCTYPE html>
+<html>
+    <title>
+        the fast food project
+    </title>
+    <style>
+      body {
+        background-color:white;
+        color:black;
+        
+                background-color: whitesmoke;
+                /* font-size:5PX; */
+                margin:0;
+                padding:5px;
+                /* text-align: center; */
+                /* display:flexbox; */
+                /* gap:30px; */
+
+      } .top{
+        color:red;
+        height:5px;
+        width:300Px;
+        font-size: 30px;
+        margin-left:10px;
+        margin-bottom:0;
+        
+
+
+      }
+      .topright{
+    color:red;
+    margin-left:350px;
+    /* margin-bottom:10PX; */
+    /* margin-top:5PX; */
+    text-align:center;
+    height:30px;
+    width:50px;
+    margin-top:1px;
+    /* word-spacing:10px; */
+
+    
+      }.buttontop{
+         background-color: red;
+            color:whitesmoke;
+            width: 200px;
+            height:30px;
+            font-size:20px;
+            cursor: pointer;
+            transition:0.3s;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgb(0,0,0,0,2);
+            margin-left:200px;
+           
+               
+        
+
+      }
+        .add{
+            width:100%;
+            height: 400px;
+            /* aspect-ratio: 1/2; */
+            background-image:url(image.jpeg );
+             background-repeat: no-repeat;
+                background-size:cover;
+                background-position:center;
+                background-attachment:scroll;
+                 
+    }
+        .red{
+            color: red;
+            font-style: italic;
+            font-weight: bolder;
+            font-size:50px;
+            margin-left:20px;
+        }.white{
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+            font-size:50px;
+            margin-left:20px;
+            
+        }.yellow{
+            background-color:rgb(231, 193, 22);
+            color:black;
+            width:220PX;
+            height:20px;
+             margin-left:20px;
+             margin-top:20px;
+            
+
+        }button{
+            background-color: red;
+            color:whitesmoke;
+            width: 200px;
+            height:30px;
+            font-size:20px;
+            cursor: pointer;
+            transition:0.3s;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgb(0,0,0,0,2);
+           margin-left:40px;
+           margin-top:50px;
+/* display:flex; */
+/* flex-wrap: wrap; */
+gap:20px;
+justify-content: center;}
+.invbackbutton{
+    background:none;
+    border:none;
+    font-size:small;
+    font-weight: bold;
+    /* gap:0; */
+    color:black;
+    /* margin-left:100PX; */
+    width:70px;
+}
+
+        #id{
+            font-size:20px;
+            color: white;
+        }
+      
+        .cardcontainor{
+                display:flex;
+                gap:20px;
+                /* justify-content: center; */
+                /* flex-wrap: wrap; */
+            }.topsecond{
+                color: gray;
+                font-style: normal;
+                text-align: center;
+            }
+            .TUF{
+                font-style: oblique;
+                text-align: center;
+                /* margin-top:100PX; */
+                
+            }
+            .card{
+                width:300px;
+                height:400px;
+                background-color:white;
+                border-color: black solid 5px;
+                border-radius:20PX;
+                margin-left:10PX;
+                justify-items: center;
+                justify-content: center;
+                /* display: flex; */
+                position: relative;
+                text-align: center;
+                
+                
+            }
+            .image{
+                /* width:100%; */
+                /* height:50%; */
+                border-radius:70PX;
+                /* margin-top:100PX; */
+                transition: transform 0.3s ease;
+            }
+            .image:hover{
+                background-color:yellow;
+                transform: scale(1.1);
+
+            }
+            .badge{
+                position: absolute;
+                font-size:15px;
+                background-color:rgb(240, 240, 52);
+                right:10px;
+                top:10px;
+                border-radius:60px;
+            }
+            .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+            .price{
+                color:red;
+                font-size:25PX;
+                font-weight: bolder;
+            }.buttonblack{
+            
+          background-color: rgb(65, 50, 50);
+           border-radius:50%;
+      margin-left:170PX;
+      width:35PX;
+      height:35PX;
+      color: white;}
+
+      /* :: part 3 */
+      .colo3{
+                background-color: #f4b400;
+                column-count:2;
+                font-style:normal;
+                margin-top:30px;
+            }
+            .stats {
+  
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 70px;
+  color: #d62828; /* red numbers */
+  margin: 0;
+  font-weight: bold;
+}
+
+.stat p {
+  margin-top: 15px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #333;
+}
+.img3{
+      transition: transform 0.3S ease;
+            }
+            .img3:hover{
+                background-image:url(images\ \(8\).jpeg);
+                transform: scale(1.1);
+}
+
+.col4{
+    display: grid;          
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;                         
+    /* background-color:white;  */
+    margin-top:30px;
+   
+}.item1{grid-column: 1;
+    margin-left:90px;
+
+}.item2{
+    grid-column:2;
+  display: flex;
+}
+.whiteback4{
+    background-color: white;
+}
+
+.part45{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    padding:15px;
+    border-radius:30px;
+    width: 450px;
+    height:450px;
+    margin-left: 50px;
+    }
+    /* part 4 of 5 */
+  .input{
+    background-color:whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  } #textarea{
+    width:450px;
+    height:80px;
+  }
+  #par4info{
+    width:450px;
+height:40px;
+  } .button4{
+    display: flex;
+    background-color: black;
+    color: white;
+    width:450px;
+    margin-left:5px ;
+    border-radius:30px;
+    border-color: black;
+  }
+   .part5{
+    margin-top:80px;
+    display: grid;
+    grid-template-columns: 4 ;
+    background-color: black;
+    color:white;
+    /* font-weight: bolder; */
+    line-height:normal;
+    
+   }.item3{
+    grid-column:1 ;
+    margin-left:60px;
+    margin-top:50px;
+   }
+.item4{
+    grid-column:2;
+}.item5{
+    grid-column:3;
+}.item6{
+    grid-column:4;
+}#yell{
+    color:yellow;
+    font-weight: bolder;
+
+}
+
+
+    </style>
+    <body><div class="top">
+        🍗  BURGUR BLAST
+    </div>
+    <span class="topright"> <a href="C:\Users\YON-TECH\Desktop\fast food code\burger blast.html">
+      <button class="invbackbutton">HOME</button></a>
+      <a href="C:\Users\YON-TECH\Desktop\fast food code\menu OF BLAST.html">
+   <span><button class="invbackbutton">MENU</button></a></span>
+   <span><a href="C:\Users\YON-TECH\Desktop\fast food code\about us.html"><button class="invbackbutton">ABOUT</button></a></span>   
+    <span><a href="C:\Users\YON-TECH\Desktop\fast food code\location of blast.html"><button class="invbackbutton"> LOCATIONS</button></a></span>
+    </span>
+    <button class=" buttontop">ORDER NOW --> </button>
+    <div class="add">
+        <div class="yellow">
+BEST BURGER IN THE TOWN
+        </div>
+        <div class="white">
+        TEST THE <br></div>
+        <div class="red">
+        EXPLOSIVE <br>
+        </div>
+        <div class="white">
+
+        FLAVOR<br>
+        </div>
+        <div id="id">
+            fresh ingredients, secret spices,and a blast of flavor in every bite.<br>
+              experiennce the burger revolution today.
+        </div>
+        <div>
+            <button >view menu🍔🍟</button>
+        </div>
+        </div>
+          <div>
+           <p> <h1 class="TUF">OUR EXPLOSIVE MENU <h1>
+
+         <h3 class="topsecond">   From our signature flame-grilled burgers to our hand-spun shakes,
+                     check out what makes us the bomb.</h3></P></div>
+                     <!-- tuf is done wright here let`s go to the pic part -->
+                 <div class="cardcontainor">
+                     <div class="card">
+                        <div class="image">
+                            <img src="images.jpeg" width="290PX"height="200px" alt="BURGER">
+                            <span class="badge">
+                                BEST SELLER
+                            </span></div>
+                            <P><h3> THE ATOMIC BURGER</h3>
+                             Double cheese,bachen,spice,
+                                unique recipe,from our kichen.
+                            <br>
+                        <span class="price">
+                            $12.99</span>
+                            <button class="buttonblack">+</button>
+                        </P>
+                         </div>
+
+                      <div class="card">
+                        <div class="image">
+                            <img src="frenchfrice.jpeg"width="290px"height="200px"alt="frechfraice">
+                            
+                        </div>
+                        <p><h3> Dynamait FRAICE</h3>
+                        crispy golden chipes toped 
+                    with cheese and bacon bit<br>
+                    <span class="price">$6.99</span>
+                    <button class="buttonblack">+</button></p>
+                      </div>
+                      <div class="card">
+                        <div class="image">
+                            <img src="milkshack.jpeg"width="290px"height="200px" alt="milk shakes">
+ </div><p><h3>MEGA BERRY SHAKE</h3>
+hand-spun milkshack with real
+strawberries,whipped cream,and<br>
+<span class="price">$8.49</span>
+<button class="buttonblack">+</button></p>
+                      </div>
+                      <div class="card">
+                        <div class="image">
+                            <img src="donat.jpg"width="290px"height="200px" alt="donat">
+                        </div>
+                        <span class="badge">NEW</span><p>
+                            <h3>
+                                VOLCANO DONUT
+                            </h3>Warm chocolate glazed donut filled with
+                            gooey raspberry lava.
+                        <br>
+                        <span class="price">$5.99</span>
+                            <button class="buttonblack">+</button>
+                        </p>
+
+                    </div>
+                      </div> 
+                      <div class="colo3">
+                <div class="img3">
+                    <img src="images (5).jpeg"width="560px"height="520px"alt="burger with cock">
+                </div>
+              <P>  <h1>THE LEGEND OF <br>
+                BURGERBLAST</h1>
+                Founded in 2015 ,BurgerBlast starts with a simple mission : to creat a burger
+                so flavorful it feels like an explostion in your mouth.We source only the freshest
+                organic ingredients and grill our patties to perfection.<br>
+                Our secret sauce is a family recipe passed down through generations,guarding
+                the perfect balance of spice ,tang,and sweetness join the revolution.
+              </P>
+                      
+                      <section class="stats">
+                        <!-- what is section even mean and work  -->
+  <div class="stat">
+    <h2>50+</h2>
+    <p>LOCATIONS</p>
+  </div>
+
+  <div class="stat">
+    <h2>1M+</h2>
+    <p>BURGERS SOLD</p>
+  </div>
+
+  <div class="stat">
+    <h2>4.9</h2>
+    <p>RATING</p>
+  </div>
+</section>
+                      </div>
+                      <div class="col4">
+                        <div class="item1">
+                    <div>
+                        <h2>FIND A BLAST <br>
+                            NEAR YOU
+                        </h2><p>
+                    We are expanding rapidly.visit one of our flagship stores to<br>
+                experience the magic in person.</p></div>
+                <section>
+                <div class="whiteback4">
+                    <h4>🍗 DOWNTOWN FLAGSHIP</h4>
+                 <p> 123 Flavor Blvd,Food District,NY 10001</p>
+
+                </div>
+                <div class="whiteback4">
+                    <h4> 🍗 WESTSIDE MALL</h4>
+                  <p> 456 Shoppin Ctr,West Avenue ,CA 90210</p>
+                </div>
+                <div class="whiteback4">
+                    <h4> 🍗 UPTOWN EXPRESS</h4>
+                    
+                  <p> 789 High Street ,Tech Park,Tx 75001 </p>
+                </div>
+                </div>
+                </section>
+
+                
+                      
+                      <div class="part45">
+                      <div class="item_2">
+                        
+                        <h2> GET IN TOUCH</h2>
+                        <form>
+                            <label class="whiteback4">your name</label><br>
+                            <input  class="input" id="par4info"type="text" placeholder="destiny solomon"><br>
+                            <lable class="whiteback4"> Email Address</lable><br>
+                            <input  class="input" id="par4info"type="email"placeholder="destiny@example.com"><br>
+                            <label class="whiteback4">Massage </label><br>
+                            <textarea class="input" id="textarea" placeholder="how can we help you?"></textarea><br>
+                            <button  class="button4" type="submit">SEND Massage</button><br>
+                        </form>
+                        
+                      </div>
+                      </div>
+                      </div>
+              <!-- part 5 is start here
+                        -->
+                      <div class="part5">
+                        <div class="item3">
+                        <h1>BURGERBLAST</h1>
+                        <P>Test the explosive flover that<br>
+                        everyone is talking about.Fresh,fast <br>
+                         and fierce<br></P>
+                       
+                         <img src="facebook.png"width="30px"height="30px">
+                         <img src="youtube.png"width="30px"height="30px">
+                         <img src="x.png"width="30px"height="30px">
+                         <img src="instagram.png"width="30px"height="30px">
+                         <img src="tumblr.png"width="30px"height="30px">
+                         
+                        <!-- <button class="buttonblack">f</button>
+                    <button class="buttonblack">X</button></P> -->
+                        </div>
+                        <div class="item4">
+                            <h3 id="yell"> QUICK LINK</h3>
+                            <P>
+                             <a href="C:\Users\YON-TECH\Desktop\fast food code\burger blast.html"><span>HOME</span></a> <br>
+                                OUR MENU <br>
+                                About Us<br>
+                                Store Locator
+                            </P>
+                        </div>
+                        <div class="item5">
+                            <h3 id="yell">SUPPORT</h3>
+                            <p>
+                                contact us<br>
+                                FAQs<br>
+                                Privacy Policy<br>
+                                Terms Of Service
+                            </p>
+                        </div>
+                        <div class="item6">
+                            <h3 id="yell">OPENING HOURS</h3>
+                            <P>
+                                MON-Fri:9:00-22:00<br>
+                                Saturday:10:00-23:00<br>
+                                sunday:10:00-21:00
+                            </P>
+                        </div>
+                      </div>
+               
+                
+
+    </body>
+</html>
